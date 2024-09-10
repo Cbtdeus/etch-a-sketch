@@ -1,6 +1,8 @@
 body {
 padding: 0;
 margin: 0;
+display: flex;
+flex-direction: column;
 }
 .etch{
     display: flex;
@@ -8,10 +10,11 @@ margin: 0;
     height: 900px;
     width: 1600px;
     align-self: center;
+    border: 2px solid black;
+    flex-grow: 1;
 }
-div {
+.sketch {
     display: flex;
-    flex-grow: 0;
-    flex-basis: 6.25%;
-    height: auto;
+flex-basis: 6.25%;
+
 }
